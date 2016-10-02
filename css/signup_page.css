@@ -28,16 +28,24 @@ body * {
 
 .signup legend {
 	font-size: 35px;
-	margin: 45px;
+	padding: 10px;
+	margin: auto auto 20px;
 	font-color: #666;
 	text-align: center;
 }
 
-.button {
-	width: 320px;
-	height: 55px;
-	border: 2px solid black;
-	padding: 15px;
+input {
+	width: 100%;
+}
+
+
+
+[type=email], [type=password] {
+	padding: 10px;
+}
+
+label {
+	padding: ;
 }
 
 .footer {
