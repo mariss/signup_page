@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Signup Page!</title>
+	<meta name="description" content=
+"AnalogSea Cloud Computing Signup Page">
 	<link rel="stylesheet" type="text/css" href="css/signup_page.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
@@ -9,9 +11,22 @@
 
 <img src="images/logo.png" class="logo">
 
-<form class="signup">
+<form class="signup" action="/signup/" method="post">
+	<legend>Sign Up</legend>
+
+	<label for="user-email">Email</label>
+	<input type="email" placeholder="foo@bar.com" name="user-email" required/><br>
+
+	<label for="user-password">Password</label>
+	<input type="password" placeholder="1234passw0rd" name="user-password" required/>
+
+	<button type="submit">Sign Up</button>
+
+	<p><a href="/forgot-password/new">Forgot password?</a></p>
 
 </form>
+
+<div class="footer">Already have an account? <a href="/login">Log In</a></div>
 
 </body>
 </html>

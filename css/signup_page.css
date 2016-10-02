@@ -1,21 +1,52 @@
 body {
 	background-color: #3498DB;
-	padding-top: 100px;
+	padding-top: 50px;
+	font-family: Roboto; sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body * {
+	box-sizing: border-box;
 }
 
 .logo {
 	display: block;
 	margin: auto;
-	height: 35px;
+	height: 75px;
+	padding-top: 30px;
 	width: auto;
 	margin-bottom: 40px;
 }
 
 .signup {
-	width: 320px;
-	padding-left: 40px;
-	padding-right: 40px;
-	height: 400px;
+	width: 400px;
+	padding: 40px;
 	background-color: #fff;
 	margin: auto;
+}
+
+.signup legend {
+	font-size: 35px;
+	margin: 45px;
+	font-color: #666;
+	text-align: center;
+}
+
+.button {
+	width: 320px;
+	height: 55px;
+	border: 2px solid black;
+	padding: 15px;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+	color: white;
+}
+
+footer a {
+	color: white;
 }
